@@ -208,6 +208,10 @@ table tr {
     color: #2A254B;
 }
 
+.button2mob{
+    display: none;
+}
+
 .main3 {
     display: flex;
     align-items: center;
@@ -331,7 +335,10 @@ footer {
 .toopfooter {
     display: flex;
     align-items: center;
+}
 
+.toopfootermob{
+    display: none;
 }
 
 ol {
@@ -372,6 +379,10 @@ ol {
     border-top: 2px solid #4E4D93;
     margin: 29px;
     padding: 20px;
+}
+
+.Copyrightmob{
+    display: none;
 }
 
 @media screen and (max-width:800px) {
@@ -600,11 +611,58 @@ ol {
     color: white; 
     }
 
-    footer{
-        color: aqua;
+    .toopfooter{
+        display: none;
+    }
+
+    .Copyright{
+        display: none;
+    }
+
+    .toopfootermob{
         display: flex;
         flex-direction: column;
-      
+        flex-wrap: wrap;
+        color: white;
     }
+
+    
+    .Logofootermob {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .box7mob{
+         margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .ol1mob{
+        margin-bottom: 10px;
+    }
+
+    .ol2mob{
+        margin-bottom: 10px;
+    }
+
+ .boxs1{
+    display: flex;
+    align-items: center;
+ }
+
+ .box8mob{
+    margin-top: 20px;
+    display: flex;
+ }
+    
+    .Copyrightmob {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 2px solid #4E4D93;
+        padding: 20px;
+    }
+
+
 
 }
