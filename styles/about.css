@@ -47,6 +47,10 @@
     font-size: 24px;
 }
 
+.iconmob{
+    display: none;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -68,11 +72,19 @@ a {
    justify-content: center;
 }
 
+.nav2mob{
+    display: none;
+}
+
 .main1{
     display: flex;
     align-items: center;
     justify-content: space-around;
    margin: 20px 0px 20px 0px;
+}
+
+.main1mob{
+    display: none;
 }
 
 .title1{
@@ -92,6 +104,10 @@ a {
     flex-direction: row;
     align-items: center;
     margin: 50px 0px 0px 180px;
+}
+
+.main2mob{
+    display: none;
 }
 
 
@@ -126,6 +142,10 @@ a {
 .main3{
     display: flex;
     margin-top: 50px;
+}
+
+.main3mob{
+    display: none;
 }
 
 .box2{
@@ -169,6 +189,10 @@ a {
     top: 20px;
     font-size: 24px;
     text-align: center;
+}
+
+.title4mob{
+    display: none;
 }
 
 .main4 {
@@ -253,6 +277,10 @@ a {
     background-color: #F9F9F9;
 }
 
+.signupmob{
+    display: none;
+}
+
 .title5 {
     font-size: 32px;
     margin: 10px;
@@ -297,7 +325,9 @@ footer {
     align-items: center;
 }
 
-
+.toopfootermob{
+    display: none;
+}
 
 .Logofooter {
     font-size: 36px;
@@ -343,4 +373,254 @@ ol{
     margin: 29px;
     padding: 20px;
 }
+
+.Copyrightmob{
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .header{
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+.icon{
+    display: none;
+}
+
+    .iconmob{
+        display: flex;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav2{
+        display: none;
+    }
+
+    .nav2mob{
+display: flex;
+display: flex;
+background-color:#F9F9F9;
+padding: 10px;
+align-items: center;
+justify-content: center;
+    }
+
+    .main1{
+        display: none;
+    }
+
+    .main1mob{
+        display: flex;
+       flex-direction: column;
+       margin: 40px;
+    }
+
+    .title1mob{
+        display: flex;
+        font-size: 25px;
+    color:#2A254B ;
+   
+}
+
+.button1mob{
+    display: block;
+    text-align: center;
+    background-color: #F9F9F9;
+    position: relative;
+    padding: 10px;
+    color: #170d59;
+    margin-top: 20px;
+}
+
+.main2{
+    display: none;
+}
+
+ .main2mob{
+    display: flex;
+    flex-direction: column;
+   margin: 20px;
+    justify-content: center;
+}
+
+.box1mob{
+    display: flex;
+    flex-direction: column;
+    background-color: #2A254B;
+    height: 282px;
+    width: 342px;
+    padding: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.title2mob{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.button2mob{
+    display: flex;
+    background-color: #F9F9F926;
+    top: 40px;
+    left: 40px;
+    position: relative;
+    padding: 20px;
+    height: 56px;
+    width: 170px;
+}
+
+.main3{
+    display: none;
+}
+
+
+.main3mob{
+    display: flex;
+    flex-direction: column;
+}
+
+.box2mob{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke ;
+    padding: 50px;
+    position: relative;
+}
+
+.title3mob{
+    color: #170d59;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tex1mob{
+    color:#505977;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.tex2mob{
+    color:#505977;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.button3mob{
+    display: block;
+    text-align: center;
+    background-color:white;
+    color: #170d59;
+    padding: 20px;
+}
+
+.main4{
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+}
+
+.title4{
+    display: none;
+}
+
+.title4mob{
+display: flex;
+font-size: 20px;
+margin: 20px 0px 10px 30px;
+}
+
+.signup{
+    display: none;
+}
+
+.signupmob{
+    display: flex;
+    color: #2A254B;
+    margin: 20px 20px 20px 20px;
+}
+
+.text6mob{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.signup2mob{
+    width: 354px;
+height: 56px;
+background: #2A254B;
+padding: 16px 32px 16px 32px;
+margin-left: -5px;
+color: white; 
+}
+
+.toopfooter{
+    display: none;
+}
+
+.Copyright{
+    display: none;
+}
+
+.toopfootermob{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+.Logofootermob {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.box7mob{
+     margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ol1mob{
+    margin-bottom: 10px;
+}
+
+.ol2mob{
+    margin-bottom: 10px;
+}
+
+.boxs1{
+display: flex;
+align-items: center;
+}
+
+.box8mob{
+margin-top: 20px;
+display: flex;
+}
+
+.Copyrightmob {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #4E4D93;
+    padding: 20px;
+}
+
+
+ }
+
+    
+
+
 
