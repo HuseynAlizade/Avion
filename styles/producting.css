@@ -16,6 +16,10 @@ header {
     margin: 20px;
 }
 
+.Logomob {
+    display: none;
+}
+
 .Logo {
     display: flex;
     flex-direction: column;
@@ -52,7 +56,11 @@ a {
     text-decoration: none;
 }
 
-section{
+.forMobile {
+    display: none;
+}
+
+.section {
     background-image: url("../img/header.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -62,30 +70,51 @@ section{
     position: relative;
 }
 
-.title{
+.sectionmob {
+    display: none;
+}
+
+.title {
     font-size: 34px;
     color: white;
     position: absolute;
     bottom: 20px;
 }
 
-main{
+.titlemob {
+    display: none;
+}
+
+main {
     display: flex;
     justify-content: space-around;
 
 }
 
-.mains{
+.mains {
     display: flex;
     flex-direction: column;
 }
-aside{
+
+.cards{
+    display: none;
 }
-aside div{
+
+aside input {
+    font-weight: 10px;
+    margin-right: 10px;
+    accent-color: #4E4D93;
+}
+
+aside div {
     display: flex;
 }
 
-.main1{
+.aside {
+    display: none;
+}
+
+.main1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,47 +122,47 @@ aside div{
     margin-right: 150px;
 }
 
-.RusticVaseSet{
+.RusticVaseSet {
     margin: 0px 20px 0px 20px;
 }
 
-.title1{
-  margin: 30px 0px 20px 0px;
+.title1 {
+    margin: 30px 0px 20px 0px;
 }
 
-.lamp{
+.lamp {
     margin: 0px 20px 0px 20px;
 }
 
-.Vaza1{
+.Vaza1 {
     margin: 0px 20px 0px 20px;
 }
 
-.main2{
+.main2 {
     display: flex;
-align-items: center;
+    align-items: center;
     justify-content: center;
     margin-top: 30px;
     margin-right: 150px;
-} 
+}
 
-.main3{
+.main3 {
     display: flex;
-align-items: center;
+    align-items: center;
     justify-content: center;
     margin-top: 30px;
     margin-right: 150px;
-} 
+}
 
-.button{
+.button {
     display: flex;
     margin: 20px 0px 30px 450px;
-    background-color:#F9F9F9 ;
+    background-color: #F9F9F9;
     padding: 20px;
     width: 140px;
     height: 56px;
     text-align: center;
-color: black;
+    color: black;
 
 }
 
@@ -192,8 +221,195 @@ footer {
     align-items: start;
 }
 
-.input{
+.input {
     padding: 20px;
     background-color: #FFFFFF26;
     width: 509px;
+}
+
+.toopfootermob {
+    display: none;
+}
+
+.bottomFootermob {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    .top-header {
+        display: none;
+    }
+
+
+    .Logomob {
+        display: flex;
+        font-size: 18px;
+    }
+
+    .forMobile {
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .sectionmob {
+        display: flex;
+        background-image: url("../img/header.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 50px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+       .forFlex{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       }
+    .flexCard img {
+        width: 163px;
+        height: 201px;
+        padding: 10px 0px;
+
+    }
+
+
+    .titlemob {
+        display: flex;
+        font-size: 36px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-left: 45px;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .aside {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .asidebox1 {
+        display: flex;
+        padding: 20px;
+        background-color: #F9F9F9;
+        width: 163px;
+        height: 56px;
+        margin: 20px 0px 10px 20px;
+
+    }
+
+    .asidebox2 {
+        display: flex;
+        padding: 20px;
+        background-color: #F9F9F9;
+        margin: 20px 0px 10px 20px;
+        width: 163px;
+        height: 56px;
+    }
+
+    .toopfooter {
+        display: none;
+    }
+
+    .bottomFooter {
+        display: none;
+    }
+
+    .toopfootermob {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 668px;
+    }
+
+    .mcomob {
+        display: flex;
+    }
+
+    .mains {
+        display: none;
+    }
+
+    .ul1mob ul,
+    .ul2mob ul,
+    .ul3mob ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .formmob form input {
+        width: 90%;
+
+    }
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+    .formmob {
+        margin-left: 50px;
+    }
+
+    .button4mob {
+        display: flex;
+        width: 118px;
+        height: 56px;
+        padding: 20px;
+        background: #2A254B;
+        margin-left: -5px;
+        color: #F9F9F9;
+    }
+
+    .mailmob {
+        display: flex;
+        order: 1;
+        width: 300px;
+    }
+
+    .bottomFootermob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 2px solid #4E4D93;
+        margin: 29px;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .buttonmob {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        background-color: #2A254B;
+        padding: 10px;
+    }
+
+    .formmob input {
+        background-color: #FFFFFF26;
+    }
+
+    .button4mob {
+        background-color: white;
+        color: #08073c;
+    }
 }
